@@ -19,5 +19,5 @@ Route::resource('users', 'UserController');
 
 Route::resource('manage', 'HomeController');
 
-Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
-Route::get('/callback/{provider}', 'SocialController@callback');
+Route::get('/redirect', 'SocialAuthFacebookController@redirect');
+Route::get('/callback', 'SocialAuthFacebookController@callback');
