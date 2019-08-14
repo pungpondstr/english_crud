@@ -26,6 +26,19 @@
 
                     </div>
                 </div>
+
+                <br>
+
+                <div class="card">
+                    <div class="card-header">Comment</div>
+
+                    <div class="card-body">
+                        <textarea class="form-control mb-2"></textarea>
+                        <input class="btn btn-primary" type="submit" value="Comment"/>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
