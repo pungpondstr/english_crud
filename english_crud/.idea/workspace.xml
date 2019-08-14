@@ -134,7 +134,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -180,7 +180,7 @@
       <workItem from="1565420838448" duration="14643000" />
       <workItem from="1565612368157" duration="11536000" />
       <workItem from="1565703897115" duration="2379000" />
-      <workItem from="1565756294961" duration="497000" />
+      <workItem from="1565756294961" duration="1131000" />
     </task>
     <servers />
   </component>

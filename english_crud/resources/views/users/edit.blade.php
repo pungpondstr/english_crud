@@ -14,8 +14,9 @@
                             </div>
                         @endif
 
-                        <form action="{{url("users")}}" method="post">
+                        <form action="{{url("users/$users->id")}}" method="post">
                             {{csrf_field()}}
+                            @method('PATCH')
                             <label>ID</label>
                             <input class="form-control mb-2" name="user_id" type="number" value="{{Auth::user()->id}}" readonly/>
 
