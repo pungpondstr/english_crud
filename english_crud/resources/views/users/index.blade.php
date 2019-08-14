@@ -16,7 +16,6 @@
 
                             <table class="table table-bordered">
                                 <tr align="center">
-                                    <th>#</th>
                                     <th>Name</th>
                                     <th>Title</th>
                                     <th>Active</th>
@@ -24,7 +23,6 @@
 
                                 @foreach($users as $user)
                                     <tr align="center">
-                                        <th>{{$user->id}}</th>
                                         <td>{{$user->name}}</td>
                                         <td>
                                             <a href="{{url("users/$user->id")}}">
