@@ -103,6 +103,7 @@ class UserController extends Controller
     {
         $users = Blog::find($id)->first();
         $users -> update($request -> all());
+        return redirect("users/$id/edit");
     }
 
     /**
